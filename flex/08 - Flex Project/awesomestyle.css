@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+}
+
+.top-nav {
+    display: flex;
+    font-family: Roboto;
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.top-nav ul {
+    list-style-type: none;
+}
+
+.nav-group {
+    display: flex;
+    width: 90%;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    font-family: Roboto;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 60px;
+
+}
+
+.hero-inner {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+}
+
+.hero-left button {
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.hero-right img {
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.section-header {
+    text-align: center;
+    font-family: roboto;
+}
+
+.card-section {
+    padding: 80px;
+}
+
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+}
+
+.card-img {
+    max-width: 99%;
+    border-radius: 5px;
+}
+
+.testimonial-section {
+    display: flex;
+    flex: 1;
+    font-family: roboto;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+.testimonial-text {
+    font-size: 36px;
+    font-weight: 200;
+    text-decoration: italic;
+    margin-bottom: 0;
+}
+
+.author-container {
+    display: flex;
+    width: 100%;
+    padding-right: 50px;
+    justify-content: flex-end;
+}
+
+.testimonial-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    j
+}
+
+.newsletter-section {
+    font-family: roboto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 5em 8em;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 2em 3em;
+}
+
+.newsletter-right {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.newsletter-right button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    color:#fff;
+;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: roboto;
+    font-size: 10px;
+}
